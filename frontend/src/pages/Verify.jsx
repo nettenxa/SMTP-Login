@@ -89,7 +89,7 @@ export default function Verify() {
         {canResend ? (
           <button onClick={handleResend}>ส่ง OTP ใหม่</button>
         ) : (
-          <p>เวลาที่เหลือในการกรอก OTP: {formatTime(timer)}</p>
+          <p>OTP: {formatTime(timer)}</p>
         )}
       </div>
     </div>
